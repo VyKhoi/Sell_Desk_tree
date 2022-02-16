@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+#mainSupport{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+#mainSupport > h1#tittle{
+    color: red;
+    text-align: center;
+
+}
+#mainSupport > h2{
+    color: rgb(247, 16, 158);
+   
+
+}
+div.huongDan{
+    
+    text-align: center;
+}
+

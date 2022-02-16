@@ -1,0 +1,198 @@
+
+*{
+    font-family: cursive;
+    
+}
+a:hover {
+    color: black;
+}
+#topHead{
+    width: 100%;
+    background-color: rgb(224, 231, 230);
+    align-items: center;
+    position: relative;
+    margin: 0;
+    margin-top: -6px;
+}
+/*o dang nhap */
+#topHeadUser{
+    position: absolute;
+    right: 5%;
+    top: 1%;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0  auto;
+    display: flex;
+
+    font-size: 1vw;
+}
+#topHeadUser > li{
+    padding: 10px;
+}
+
+#connect{
+   padding-left: 5%;
+   padding-top: 1%;
+   padding-bottom: 5px;
+}
+#bag{
+   
+    background-color: rgb(255, 6, 101);
+}
+/* o giua menu */
+#topHead2{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color:white;
+}
+#topHead2_1{
+    width: 70%;
+    display: flex;
+}
+#topHead2_1 > h3{
+    margin-left: 3%;
+    font-family: cursive;
+}
+#topHead2_1 > h3 span{
+    color: rgb(13, 143, 52);
+}
+
+#topHead2_2{
+    width: 30%;
+   
+}
+#search{
+    width: 70%;
+   border-style: none;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(250, 173, 7);
+
+}
+.timKiem{
+    background-color: rgb(243, 247, 6);
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-style: none;
+    padding: 6px;
+    margin-left: 0;
+}
+/*  phần menu Lớn */
+nav{
+  
+   /* border-style: solid; */
+    padding-top: 0;
+    margin-top: -1%;
+   margin-bottom:0;
+  
+}
+#menu{
+    display:  flex;
+    list-style-type: none;
+    background-color: rgb(83, 218, 49);
+   margin: 0;
+   padding: 5px;
+  
+    margin-bottom: 0;
+    width: 100%;
+}
+#menu > li{
+   width: 20%;
+   padding: 0;
+   margin: 0;
+   
+   text-align: center;
+   border-right-style: solid;
+   border-right-color: white;
+   position: relative;
+}
+
+
+.imgTopBody{
+   
+    padding: 0;
+    width: 95%;
+
+    margin:0 auto;
+}
+.imgTopBody > img{
+width: 100%;
+}
+h1.hLi{
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    color: white;
+}
+/* menu con */
+
+.submenu{
+    list-style-type: none;
+    width: 100%;
+    padding:5px;
+    text-align: left;
+    display: none;
+   background-color: rgb(237, 248, 207);
+    position: relative;
+    z-index: 10;
+}
+.submenu::after{
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 45%;
+}
+
+.submenu > li{
+    padding: 5px;
+    background-color: rgb(213, 238, 220);
+    margin: 5px;
+   
+}
+.submenu > li a{
+/* background-color: rgb(255, 255, 255); */
+display: block;
+color: rgb(6, 107, 48);
+}
+.submenu > li:hover{
+background-color: rgb(253, 253, 221);
+transform: translate(10px);
+transition-duration: 0.5s;
+/*
+
+*/
+}
+
+input:hover{
+    background-color: rgb(240, 240, 200);
+}
+.sub .submenu{
+    
+    position: absolute; 
+} 
+@keyframes showinfo{
+    from{
+        opacity: 0.1;
+    }
+    to{
+        color: #08b42d;
+    }
+}
+
+
+#logIn:hover{
+    background-color: yellow;
+}
+#creatAccount:hover{
+    background-color: yellow;
+}
+
+
+#showNews{
+  color: rgba(180, 178, 178, 0.021);
+}

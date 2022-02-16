@@ -1,0 +1,24 @@
+#headHome{
+    font-size: 4vw;
+    color: rgb(161, 9, 85);
+}
+#tittleHome{
+    font-size: 2vw;
+    text-shadow: 1px 1px;
+    text-align: center;
+}
+#tittleImg{
+    width: 100%;
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
+}
+
+div#content2 > h3{
+ color: red;
+ font-size: 2vw;
+}
+#content2{
+    padding: 10px;
+}

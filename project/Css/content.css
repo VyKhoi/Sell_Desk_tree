@@ -1,0 +1,158 @@
+
+*{
+    box-sizing: border-box;
+}
+/* bố cục */
+#content{
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+}
+#content1{
+    width: 30%;
+   
+    /* background: linear-gradient(#ffffff,rgb(219, 234, 250),rgb(193, 243, 252),rgb(160, 233, 243));
+    */
+    margin-right: 5%;
+    padding: 1%;
+    border-right-style: inset;
+}
+#content2{
+    width: 70%;
+    
+    /* background-color: rgb(31, 44, 226);
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; */
+    
+}
+#product1{
+    background-color: rgb(242, 250, 241);
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+/*item*/
+.item{
+    width: 30%;
+   
+   
+    background-color: white;
+    border-style: solid;
+    position: relative;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    overflow: hidden;
+    margin-bottom: 10px;
+   
+   
+}
+.item > img{
+    width: 100%;
+    height: 70%;
+    max-height: 200px;
+}
+
+.footerItem{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nameItem{
+    width: 60%;
+    font-size: 1vw;
+    background-color: red;
+    padding: 5px;
+}
+.part2{
+   
+    margin-left: auto;
+    margin-right: 5px;
+    align-items: flex-start;
+    vertical-align: bottom;
+
+    margin-top: auto;
+    padding: 5px;
+    padding-right: 1px;
+} 
+.buy{
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    padding: 5px;
+    font-size: 1vw;
+}
+.show{
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    padding: 5px;
+    font-size: 1vw;
+}
+ /* tieu de */
+.introduce > p{
+    text-indent: 5%;
+    
+}
+
+.title{
+    width: 100%;
+    font-size: 1.5vw;
+    color: white;
+}
+h1.title > span{
+    display: block;
+    width: 30%;
+   background: linear-gradient(rgb(129, 245, 227),rgb(90, 243, 136),rgb(11, 196, 35));
+   padding: 5px;
+   border-radius: 20px 10px 0 0;
+}
+h1.title::after{
+    content: " ";
+    background-color: rgb(125, 240, 90);
+    width: 100%;
+    height: 10px;
+    display: block;
+}
+
+/*news*/
+#news{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.boxNews{
+    width: 100%;
+   
+    background-color: rgb(243, 243, 243);
+    padding: 5px;
+ 
+    height: 260px;
+    text-overflow: ellipsis;
+    
+    margin-bottom: 5%;
+    text-indent: 5%;
+    overflow: hidden;
+   border-bottom-style: solid;
+   border-color: rgb(192, 218, 47);
+   border-width: 5px;
+}
+.boxNews > a > img{
+    width: 50%;
+    max-height: 150px;
+    float: left;
+}
+.boxNews > a > h1{
+    
+    font-size: 1vw;
+}
+.boxNews > a > p{
+    width: 100%;
+    color: rgb(88, 32, 243);
+    font-size: 1vw;
+
+}

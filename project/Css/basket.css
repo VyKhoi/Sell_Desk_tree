@@ -1,0 +1,148 @@
+
+#basket{
+    width: 40%;
+    height: 300px;
+
+    position: fixed;
+   
+    top: 20%;
+    left: 30%;
+   /* background: linear-gradient(rgb(241, 236, 236),rgb(195, 241, 202),rgb(248, 248, 246),rgb(218, 221, 219)); */
+   
+    background-color: white;
+   z-index: 100;
+    display: none;
+    overflow: auto;
+   border-radius: 20px;
+   border-style: solid;
+   padding: 10px;
+}
+#bags {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   
+}
+#bags li{
+    padding: 5px;
+    width: 100%;
+    
+    overflow: auto;
+    position: relative;
+    background-color: #e9fff4;
+    border-top-style: solid;
+    border-color: #b4feee;
+}
+#bags > li h1{
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+   
+}
+#bags > li img{
+    width: 100px;
+    height: 80px;
+    float: left;
+   margin: 10px;
+   border-style: solid;
+   border-top-left-radius: 20%;
+   border-bottom-right-radius: 20%;
+   border-color:rgb(87, 122, 93);
+
+}
+#bags > li span{
+    margin-right: 10px;
+}
+#bags > li input.quantity{
+    
+    margin: 0;
+    padding: 3px;
+    width: 15%;
+    
+    border-style:solid;
+    border-radius: 10px;
+} 
+.xoa{
+     position: absolute;
+    top: 10px;
+    right: 10px; 
+    z-index: 100;
+    font-size: 20px;
+    color: orange;
+}
+.price{
+    
+    padding: 5px;
+    border-style: solid;
+    background: none;
+    border-style: none;
+    color: rgb(255, 21, 5);
+    border-bottom-style: dotted;
+    border-color: brown;
+}
+#close2{
+    font-size: 30px;
+    padding: 5px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+#thanhToan{
+   
+    background-color: rgba(31, 241, 112, 0.925);
+    padding: 5px;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom-left-radius: 10px;
+}
+#headBag{
+    display: inline-block;
+    margin-left: 40%;
+    color: rgb(255, 6, 101);;
+}
+.pay{
+    width: 30%;
+    
+    position: fixed;
+    display: none;
+    padding: 5px;
+    top: 20%;
+    left: 30%;
+    background: linear-gradient(rgb(215, 241, 215),rgba(173, 250, 250, 0.836),rgba(138, 228, 150, 0.692));
+    z-index: 100;
+
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 10%;
+
+    overflow: hidden;
+   
+}
+.pay > h2{
+font-size: 1vw;
+}
+.pay > input{
+    border-style: none;
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(234, 245, 138);
+}
+.pay > textarea{
+    border-style: none;
+    border-radius: 15px;
+}
+#okePay{
+    position: absolute;
+    bottom: 4%;
+    right: 5%;
+}
+#close3{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: orange;
+    font-size: 30px;
+}

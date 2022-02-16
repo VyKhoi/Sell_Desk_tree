@@ -1,0 +1,40 @@
+#resutlSearch{
+    margin: 0 auto;
+    width: 60%;
+    height: 400px;
+    background-image: url("../Html/pictures/items/topBody/scr11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    padding: 5PX;
+    overflow: auto;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+    z-index: 110;
+    display: none;
+}
+
+#resutlSearch > div{
+   
+    width: 80%;
+    
+    border-radius: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-height: 65px;
+}
+#resutlSearch > div.item:hover{
+    transform: translate(10px);
+ 
+}
+#resutlSearch > div > img{
+    width: 22%;
+    float: left;
+    
+}
+#listSearch{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

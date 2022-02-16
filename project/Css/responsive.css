@@ -1,0 +1,96 @@
+div#topHead2_1 > img{
+    display: none;
+}
+#content1{
+    position: fixed;
+    top: 30%;
+    height: 500px;
+    overflow: auto;
+    
+    background-color: white;
+    z-index: 200;
+    display: none;
+}
+#content1 > h1{
+    font-size: 10px;
+}
+#news > li{
+    height: 80px;
+}
+.boxNews > a p{
+   display: none;
+ 
+}
+
+.boxNews > a img{
+    margin-right: 5px;
+}
+.boxNews > a h1{
+    font-size: 7px !important;
+    color: rgb(0, 0, 0);
+}
+#content2{
+    
+    margin: 0 auto;
+    font-size: 14px;
+}
+#content2 .item{
+    width: 100%;
+    height: 250px;
+    
+}
+#content2 .item  h1{
+    font-size: 12px;
+}
+#content2 .item  i{
+    font-size: 15px;
+}
+div.goToTop > a i{
+    font-size: 30px;
+  
+}
+.social{
+    
+   
+}
+
+#showNews{
+   color: red;
+   font-size: 20px;
+   position: fixed;
+   bottom: 10%;
+   right: 2%;
+   z-index: 200;
+}
+
+
+#headBag{
+    padding-top: 10%;
+    font-size: 20px;
+ 
+}
+
+#logIn{
+    font-size: 7px;
+}
+#creatAccount{
+    font-size: 7px;
+
+}
+#bag{
+    font-size: 7px;
+
+}
+div#connect a{
+    font-size: 10px;
+   
+}
+#topHead{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+#sumMoney{
+    font-size: 20px;
+}

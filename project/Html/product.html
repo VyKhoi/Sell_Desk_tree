@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Cay canh Vy Khoi</title>
+        <meta name="keywords" content="cay canh,web cay canh,mua cay canh,cay canh de ban"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../Css/responsive.css" type="text/css" rel="stylesheet" media="screen and (max-width:600px)" />
+        
+
+
+        <link href="pictures/icon/logo.png" rel="shortcut icon"/>
+     
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+       
+        <link href="../Css/resignItemSearch.css" type="text/css" rel="stylesheet"/>
+        <link href="../Css/head.css" type="text/css" rel="stylesheet"/>
+        <link href="../Css/content.css" type="text/css" rel="stylesheet"/>
+        <link href="../Css/footer.css" type="text/css" rel="stylesheet"/>
+        <link href="../Css/contentProduct.css" type="text/css" rel="stylesheet"/>
+        <link href="../Css/basket.css" type="text/css" rel="stylesheet"/>
+        <script src="../Js/jquery-3.6.0.min.js"></script>
+       
+<style>
+    a{
+    color: black;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+</style>
+</head>
+    <body>
+
+
+        <!-- vùng trên menu -->
+        <div id="topHead">
+
+                <div id="connect">
+                <i style="color: red;" class="fas fa-phone-alt"><a href="tel:0937793157"><span style="opacity: 60%;"> Hotline</span> :0937793157</a></i>
+                 </div>
+                <ul id="topHeadUser">
+                    <li id="logIn">
+                        <a href="#">
+                        <i class="fas fa-box"> Đăng Nhập </i>
+                         </a>
+                    </li>
+
+                    <li id="creatAccount">
+                        <a href="#">
+                        <i class="fab fa-accusoft"> Đăng Ký </i>
+                        </a>
+                    </li>
+                    
+                    <li id="bag">
+                        <a href="#!" style="color: white;">
+                        <i class="fas fa-shopping-bag"> Giỏ Hàng</i>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        <!-- vung gua trc khi toi menu-->
+        <div id="topHead2">
+            <div id="topHead2_1">
+                <img src="pictures/icon/log.png" />
+                <h3> <span> Tinh Tế Hài Hòa </span> <br><span style="color: rgb(252, 116, 6);"> Tạo Nên Thương hiệu </span></h3>
+            </div>
+
+            <div id="topHead2_2">
+                <input id="search" type="text" placeholder="search" value=""/>
+                <input type="button" value="Tìm kiếm" class="timKiem"/>
+            </div>
+        </div>
+        <!--Menu-->
+        <nav >
+            <ul id="menu">
+                
+                <li>
+                    <a href="TrangChu.html" class="menu">
+                        <i class="fas fa-spa"><h1 class="hLi">Trang Chủ</h1></i>
+                       
+                    </a>
+                </li>
+
+                <li class="sub">
+                    <a  href="#!" class="menu">
+                        <i class="fab fa-pagelines"><h1 class="hLi">Sản Phẩm
+                            <i class="fas fa-sort-down"></i></h1>
+                        
+                        </i>
+                       
+                    </a>
+
+                    <ul class="submenu">
+                        <li><a href="#br1"><span><i class="fas fa-leaf"></i> Cây Lan </span></a></li>
+                        <li><a href="#br2"><span><i class="fas fa-leaf"></i> Cây Xương Rồng</span></a></li>
+
+                        <li><a href="#br3"><span><i class="fas fa-leaf"></i> Cây Sen Đá</span></a></li>
+
+                        <li><a href="#br4"><span><i class="fas fa-leaf"></i> Cây Hoa Hồng</span></a></li>
+                        <li><a href="#br5"><span><i class="fas fa-leaf"></i> Cây Thủy Sinh</span></a></li>
+
+                     </ul>
+
+                </li>
+
+                <li>
+                    <a  href="Hotro.html" class="menu">
+                        <i class="fas fa-headset"> <h1 class="hLi">Hỗ Trợ</h1></i>
+                     
+                    </a>
+                </li>
+
+                <li>
+                    <a  href="#contact" class="menu">
+                        <i class="fas fa-address-card"><h1 class="hLi">Liên Hệ</h1></i>
+                       
+                    </a>
+                </li>
+
+                <li>
+                    <a  href="forum.html" class="menu">
+                        <i class="fas fa-comment"><h1 class="hLi">Diễn Đàng</h1></i>
+                      
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+         <div class="imgTopBody">
+            <img src="pictures/items/topBody/vuon-cay-viet-banner-new.jpg" />
+        </div>
+        
+        <!-- sản phẩm và tin tức -->
+        <div id="content" >
+            <div id="content1">
+                <h1 id="tittleContent1" style="text-align: center;">Tin Tức Nổi Bậc</h1>
+                <hr>
+                <ul id="news">
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay4/lan ngọc điểm.jpg" />
+                            <h1>Làm thế nào trồng trọt đạt hiệu quả cao ?</h1>
+                            <p>Trong sản xuất nông nghiệp, các biện pháp canh tác làm một t
+                                rong những “bí kíp” có tác dụng phòng trừ sâu bệnh gây 
+                                thiệt hại cho cây trồng, đây được xem như là nhóm biện pháp bảo vệ thực v
+                                ật. Khi tác động đúng quy trình và hợp lý thì các biện phát sẽ phát huy tối đa...</p>
+                           </a>
+                    </li>
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay4/lan nghệ tâm.jpg" />
+                            <h1>8 cách chăm sóc cây cảnh trong nhà để cây luôn xanh và phát triển tốt</h1>
+                            <p>Bên cạnh việc ô nhiễm không khí ngày càng nghiêm trọng, các chất ô nhiễm trong nhà đến từ t
+                                hảm, sợi, amiăng, khói, bụi, vi khuẩn cũng góp phần ảnh hưởng đến sức khỏe của chính chúng ta. </p>
+                           </a>
+                    </li>
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay4/lan nghệ tâm.jpg" />
+                            <h1>8 cách chăm sóc cây cảnh trong nhà để cây luôn xanh và phát triển tốt</h1>
+                            <p>Bên cạnh việc ô nhiễm không khí ngày càng nghiêm trọng, các chất ô nhiễm trong nhà đến từ t
+                                hảm, sợi, amiăng, khói, bụi, vi khuẩn cũng góp phần ảnh hưởng đến sức khỏe của chính chúng ta. </p>
+                           </a>
+                    </li>
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay4/lan vũ nữ.jpg" />
+                            <h1>Hướng dẫn cách chăm sóc cây sen đá và ý nghĩa cây sen đá</h1>
+                            <p>Sen đá được yêu thích không chỉ bởi sự nhỏ nhắn đáng yêu mà còn vì đây là một loại cây cực kì dễ sống, dễ trồng. Đối với nhiều người, có lẽ trồng và chăm sóc sen đá không có gì là quá khó. Với kinh nghiệm nhiều năm trong lĩnh vực kinh doanh cây cảnh...</p>
+                           </a>
+                    </li>
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay2/cây lưỡi hổ.jpg" />
+
+                            <h1>Kinh nghiệm trồng và chăm sóc sen đá lên màu chuẩn như ở vườn</h1>
+                            <p>Để tưới nước hiệu quả, trước hết bạn cần hiểu sen đá cần bao nhiêu nước là đủ. Có nhiều người quan niệm sen đá cần ít nước nên chỉ tưới rất ít (vài giọt, hoặc một ít) dẫn đến tình trạng cây bị thiếu nước mà chết. Đây là quan niệm chưa đủ, chỉ thể hiện...</p>
+                           </a>
+                    </li>
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay4/lan tam bảo sắc.png" />
+                            <h1>Biểu hiện một cây sen đá thiếu nước?</h1>
+                            <p>Một cây sen đá khi bị thiếu nước sẽ có dấu hiệu để bạn nhận biết và điều chỉnh lượng nước tưới cho phù hợp. Thông thường nếu không được cung cấp nước trong thời gian dài, các lá sen đá già dưới gốc sẽ có màu sắc cây nhợt nhạt hơi úa vàng...</p>
+                           </a>
+                    </li>
+                    <li class="boxNews">
+                        <a href="#!">
+                         <img src="pictures/items/cay4/lan nghệ tâm.jpg" />
+                            <h1>8 cách chăm sóc cây cảnh trong nhà để cây luôn xanh và phát triển tốt</h1>
+                            <p>Bên cạnh việc ô nhiễm không khí ngày càng nghiêm trọng, các chất ô nhiễm trong nhà đến từ t
+                                hảm, sợi, amiăng, khói, bụi, vi khuẩn cũng góp phần ảnh hưởng đến sức khỏe của chính chúng ta. </p>
+                           </a>
+                    </li>
+                </ul>
+
+            </div>
+
+         <div id="content2">
+
+            <!-- gioi thieu cay canh -->
+            <div class="introduce">
+                <h1 id="f0">CÂY CẢNH <i class="fas fa-leaf"></i></h1>
+                <hr>
+                <p>Cây cảnh từ lâu đã được biết đến không chỉ có tác dụng tốt cho sức khỏe, ý nghĩa với môi trường và dùng để trang trí không gian. Mà nó còn được coi là một trong những vật phẩm phong thủy.Các loại cây cảnh để bàn, cây cảnh thuỷ sinh, terrarium, bonsai, cây ăn trái… Mỗi chậu cây được phối hợp tạo nên vẻ đẹp hài hoà, có ý nghĩa phong thuỷ phù hợp với tuổi, mệnh để bạn dễ dàng lựa chọn.<br>
+                Lưu ý: 
+                </p>
+                <ul >
+                    <li>Giá đã bao gồm chậu, nhưng chưa bao gồm phí vận chuyển. </li>
+                    <li>Khách hàng có nhu cầu mua riêng cây để phối với các loại chậu khác, vui lòng liên hệ số hotline hoặc chat với nhân viên tư vấn để được hỗ trợ.</li>
+                </ul>
+            </div>
+
+
+            <!-- gioi thieu cay lan -->
+            <br id="br1">
+            <br>
+            <br>
+            <h1 id="f1" class="title"><span>Cây Lan <i class="fas fa-leaf"></i></span></h1>
+            <div class="introduce">
+                <p>Hoa lan là một loài hoa tuyệt đẹp mang trong mình nhiều ý nghĩa, nó vừa làm đẹp cho khu vườn của bạn, vừa làm đẹp cho nhà cửa.<br>
+                    Lưu ý: 
+                    </p>
+                    <ul class="luuy">
+                        <li>Giá đã bao gồm chậu, nhưng chưa bao gồm phí vận chuyển. </li>
+                        <li>Khách hàng có nhu cầu mua riêng cây để phối với các loại chậu khác, vui lòng liên hệ số hotline hoặc chat với nhân viên tư vấn để được hỗ trợ.</li>
+                    </ul>
+            </div>
+
+    
+            <div id="product1">
+                <div class="item">
+                    <img src="pictures/items/cay4/lan dendro.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lan Denro<br><span>30.000</span></h1>
+
+
+                     <!-- role tien, lang ten rell anh -->
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan dendro.jpg" class="order" role="30000"  lang="Cây Lan Denro"> <i  class="fas fa-shopping-bag buy"></i></a>
+                       <!-- muốn them hình sản phâm xem hem thi điền role,lang la thu muc cay lon hon với rel vô(role la cap bac trong foder) rel src main Img-->
+                       <a href="#!" lang="4" class="showMoreImg" role="1" rel="pictures/items/cay4/lan dendro.jpg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay4/lan hồ điệp.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lan Hồ Điệp<br><span>20.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan hồ điệp.jpg" role="20000" class="order" lang="Cây Lan Hồ Điệp"> <i class="fas fa-shopping-bag buy"><span role="Cây ớt màu tím"></span> </i></a>
+                       <a href="#!" lang="4" class="showMoreImg" role="2"  rel="pictures/items/cay4/lan hồ điệp.jpg"><i  class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay4/lan nghệ tâm.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lan Nghệ tâm <br><span>10.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan nghệ tâm.jpg" role="10000" lang="Cây Lan Nghệ tâm" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="4" class="showMoreImg" role="3" rel="pictures/items/cay4/lan nghệ tâm.jpg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay4/lan ngọc điểm.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lan Đỏ <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan ngọc điểm.jpg" role="40000" lang="Cây Lan Đỏ" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"  rel="pictures/items/cay4/lan ngọc điểm.jpg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="pictures/items/cay4/lan phi điệp.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lan Tím<br><span>50.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan phi điệp.jpg" role="50000" lang="Cây Lan Tím" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg" ><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay4/lan tam bảo sắc.png">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lang Hồng Cúc <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan tam bảo sắc.png" role="15000" lang="Cây Lang Hồng Cúc" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg" ><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay4/lan vũ nữ.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lan Siêu Việt<br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay4/lan vũ nữ.jpg" role="40000" lang="Cây Lan Siêu Việt" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+          
+          
+          
+            </div>
+
+            <br id="br2">
+            <br>
+            <br>
+            <h1 id="f2" class="title"><span>Cây xương rồng <i class="fas fa-leaf"></i></span></h1>
+            <div class="introduce">
+                <p> xương rồng nhỏ nhắn chính là ý tưởng độc đáo giúp việc trang trí cho văn phòng, nhà ở, bàn làm việc thêm sinh động.<br>
+                    Lưu ý: 
+                    </p>
+                    <ul >
+                        <li>Giá đã bao gồm chậu, nhưng chưa bao gồm phí vận chuyển. </li>
+                        <li>Khách hàng có nhu cầu mua riêng cây để phối với các loại chậu khác, vui lòng liên hệ số hotline hoặc chat với nhân viên tư vấn để được hỗ trợ.</li>
+                    </ul>
+            </div>
+
+            <div id="product1">
+               
+
+              
+
+                <div class="item">
+                    <img src="pictures/items/cay1/xuongrongbattiendo.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Xương Rồng Bát Tiên<br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay1/xuongrongbattiendo.jpg" role="40000" lang="Cây Xương Rồng Bát Tiên" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="1" role="1" class="showMoreImg"  rel="pictures/items/cay1/xuongrongbattiendo.jpg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay1/xuongrongbonggon.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Xương Rồng bông Gòn <br><span>25.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay1/xuongrongbonggon.jpg" role="25000" lang="Cây Xương Rồng bông Gòn" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="1" role="2" rel="pictures/items/cay1/xuongrongbonggon.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="pictures/items/cay1/xuongronghongngoc.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Xương Rồng Hồng Ngọc <br><span>20.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay1/xuongronghongngoc.jpg" role="20000" lang="Cây Xương Rồng Hồng Ngọc " class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="1" role="3" rel="pictures/items/cay1/xuongronghongngoc.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay1/xuongrongechino.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Xương Rồng ChiGo <br><span>70.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay1/xuongrongechino.jpg" role="70000" lang="Cây Xương Rồng ChiGo " class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay1/xuongrongthachtrutien.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Xương Rồng Trư Tiền <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay1/xuongrongthachtrutien.jpg" role="40000" lang="Cây Xương Rồng Trư Tiền" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+          
+          
+          
+            </div>
+
+            <br id="br3">
+            <br>
+            <br>
+            <h1 id="f3" class="title"><span>Cây Sen Đá <i class="fas fa-leaf"></i></span></h1>
+            <div class="introduce">
+                <p> Các chậu cây sen đá nhỏ nhắn chính là ý tưởng độc đáo giúp việc trang trí cho văn phòng, nhà ở, bàn làm việc thêm sinh động.<br>
+                    Lưu ý: 
+                    </p>
+                    <ul >
+                        <li>Giá đã bao gồm chậu, nhưng chưa bao gồm phí vận chuyển. </li>
+                        <li>Khách hàng có nhu cầu mua riêng cây để phối với các loại chậu khác, vui lòng liên hệ số hotline hoặc chat với nhân viên tư vấn để được hỗ trợ.</li>
+                    </ul>
+            </div>
+    
+            <div id="product1">
+               
+
+                <div class="item">
+                    <img src="pictures/items/cay3/caysendavang.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem" class="showMoreImg">Cây Sen Đá Vàng <br><span>32.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay3/caysendavang.jpg" role="32000" lang="Cây Sen Đá Vàng"  class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="3" role="1" rel="pictures/items/cay3/caysendavang.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay3/cây sen dá nâu.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Sen Đá Nâu<br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay3/cây sen dá nâu.jpg" role="7000" lang="Cây Sen Đá Nâu"  class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="3" role="2" rel="pictures/items/cay3/cây sen dá nâu.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="pictures/items/cay3/Sen đá thái.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Sen Đá Thái<br><span>52.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay3/Sen đá thái.jpg" role="52000" lang="Cây Sen Đá Thái" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay3/Sen đá rubi.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Sen Đá rubi <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay3/Sen đá rubi.jpg" role="40000" lang="Cây Sen Đá rubi" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay3/cây sen đá phật bà.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Sen Đá Phật bà <br><span>30.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay3/cây sen đá phật bà.jpg" role="30000" lang="Cây Sen Đá Phật bà" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+          
+          
+          
+            </div>
+            
+            <br id="br4">
+            <br>
+            <br>
+            <h1 id="f4" class="title"><span>Cây Hoa Hồng <i class="fas fa-leaf"></i></span></h1>
+            <div class="introduce">
+                <p> Hoa hồng luôn được gắn liền với một tình yêu cháy bỏng, nồng nàn hay nét đẹp kiêu sa, quyến rũ.<br>
+                    Lưu ý: 
+                    </p>
+                    <ul>
+                        <li>Giá đã bao gồm chậu, nhưng chưa bao gồm phí vận chuyển. </li>
+                        <li>Khách hàng có nhu cầu mua riêng cây để phối với các loại chậu khác, vui lòng liên hệ số hotline hoặc chat với nhân viên tư vấn để được hỗ trợ.</li>
+                    </ul>
+            </div>
+    
+            <div id="product1">
+              
+
+                <div class="item">
+                    <img src="pictures/items/cay5/hoa hong co sapa.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Hồng Cổ Sapa <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay5/hoa hong co sapa.jpg" role="40000" lang="Cây Hồng Cổ Sapa " class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="5" role="1" rel="pictures/items/cay5/hoa hong co sapa.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay5/hoa hong do Monalisa Rose.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Hồng Đỏ<br><span>89.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay5/hoa hong do Monalisa Rose.jpg" role="89000" lang="Cây Hồng Đỏ" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="5" role="2" rel="pictures/items/cay5/hoa hong do Monalisa Rose.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay5/hong vang Catalina Rose.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Hồng Vàng <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay5/hong vang Catalina Rose.jpg" role="40000" lang="Cây Hồng Vàng" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="pictures/items/cay5/hong vang Catalina Rose.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Hồng Vàng Cát <br><span>23.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay5/hong vang Catalina Rose.jpg" role="23000" lang="Cây Hồng Vàng Cát " class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay5/hoa hong trang Shizuku.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Hồng Trắng<br><span>12.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay5/hoa hong trang Shizuku.jpg" role="12000" lang="Cây Hồng Trắng" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay5/hoa hong leoWinchester Cathedral.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Hồng leoWinchester Cathedral <br><span>46.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay5/hoa hong leoWinchester Cathedral.jpg" role="46000" lang="Cây Hồng leoWinchester Cathedral " class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+          
+          
+          
+            </div>
+            
+            <br id="br5">
+            <br>
+            <br>
+            <h1 id="f5" class="title"><span>Cây Thủy Sinh <i class="fas fa-leaf"></i></span></h1>
+            <div class="introduce">
+                <p> Cây cảnh thủy sinh mang lại sự khác biệt cho người chơi nếu được đặt tại những vị trí phù hợp trên bàn làm việc, văn phòng hay nhà ở, tạo sự chú ý, tò mò cho khách viếng thăm.<br>
+                    Lưu ý: 
+                    </p>
+                    <ul >
+                        <li>Giá đã bao gồm chậu, nhưng chưa bao gồm phí vận chuyển. </li>
+                        <li>Khách hàng có nhu cầu mua riêng cây để phối với các loại chậu khác, vui lòng liên hệ số hotline hoặc chat với nhân viên tư vấn để được hỗ trợ.</li>
+                    </ul>
+            </div>
+
+            <div id="product1">
+             
+
+                <div class="item">
+                    <img src="pictures/items/cay2/kim tiền thủy sinh.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Kim Tiền Thủy Sinh <br><span>50.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay2/kim tiền thủy sinh.jpg" role="50000" lang="Kim Tiền Thủy Sinh" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="3" role="1" rel="pictures/items/cay2/kim tiền thủy sinh.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay2/cây trầu ba.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Trầu Bà <br><span>50.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay2/cây trầu ba.jpg" role="50000" lang="Cây Trầu Bà " class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" lang="5" role="1" rel="pictures/items/cay2/cây trầu ba.jpg" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay2/cây tóc tiên.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây tóc Tiên <br><span>40.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay2/cây tóc tiên.jpg" role="40000" lang="Cây tóc Tiên" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="pictures/items/cay2/cây phú quý.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Phú Quý<br><span>10.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay2/cây phú quý.jpg" role="10000" lang="Cây Phú Quý"  class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay2/cây ngọc ngân.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Ngọc Ngân <br><span>30.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay2/cây ngọc ngân.jpg" role="30000" lang="Cây Ngọc Ngân" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="pictures/items/cay2/cây lưỡi hổ.jpg">
+
+                    <div class="footerItem">
+                     <h1 class="nameItem">Cây Lưỡi Hỗ <br><span>90.000</span></h1>
+
+                    <DIV class="part2">
+                       <a href="#!" rel="pictures/items/cay2/cây lưỡi hổ.jpg" role="90000" lang="Cây Lưỡi Hỗ" class="order"> <i class="fas fa-shopping-bag buy"></i></a>
+                       <a href="#!" class="showMoreImg"><i class="fas fa-eye show"></i></a>  
+                    </DIV>
+                    
+                    </div>
+                </div>
+          
+          
+          
+            </div>
+            
+         
+          
+            </div>
+          </div>
+        </div>
+
+
+        <!-- phần đuôi -->
+        <hr id="contact">
+        <footer>
+            <br >
+            
+            <br>
+
+            <h1 >Thông Tin Liên Hệ Và Địa Chỉ</h1>
+
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4565898407!2d106.68816475037846!3d10.776299262105075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3ae35e3725%3A0x20c5174a47f97be3!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDE!5e0!3m2!1svi!2s!4v1644601320871!5m2!1svi!2s"  style="border:0;width: 100%;height: 300px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="messConnect">
+                
+                <ul class="infor">
+                    <h2>Địa chỉ</h2>
+                    <li>CÂY CẢNH ĐẸP</li>
+                    <li><i class="fas fa-map-marker-alt"> 97 Võ Văn Tần, Phường 6, Quận 3, Thành phố Hồ Chí Minh</i></li>
+                  <li> <i style="color: red;" class="fas fa-phone-alt"><a href="tel:0937793157">
+                      <span style="opacity: 60%;"> Điện thoại</span> :0937793157</a></i></li>
+                </ul>
+
+
+                <form class="formConnect">
+                    <h1>Phản ánh website</h1>
+                    <input type="text" value="" name="name" placeholder="*Họ và tên">
+                    <input type="email" value="" name="name" placeholder="email">
+                    <input type="text" placeholder="Số điện thoại"/>
+                    <textarea></textarea>
+                    <input type="button" value="Gửi" class="bFormConnect"/>
+                    <input type="reset" value="Nhập lại" class="bFormConnect"/>
+
+                </form>
+               
+            </div>
+            <div class="inforShop">
+                <ul class="contentInforShop">
+                    <H1>TÀI KHOÃN</H1>
+                    <li><p>Ngân hàng Đông Á Số TK:0937793157, PGD Tô Hiến Thành, TP. HCM - Chủ Tài Khoản:aaaaaaaaaaaaaaaa.</p></li>
+                    <li><p>Ngân hàng VietCombank Số TK: 00000000000 - Chủ Tài Khoản: aaaaaaaaaaaaaaa.</p></li>
+                     <li><p>Ngân Hàng ACB Số TK:00000000 - Chủ TK: aaaaaaaaaaaa</p></li>
+                </ul>
+               <div class="connectÌnorShop">
+                   <h2>Liên Hệ</h2>
+                   <P>Cây cảnh đẹp chuyên bán các loại cây cảnh để bàn, cây cảnh phong thuỷ, cho thuê cây cảnh,cây cảnh bonsai, tiểu cảnh terrarium và cung cấp các dịch vụ liên quan đến cây cảnh. Hotline: 0985507150. Email: lienhe@vuoncayviet.com
+
+                    Địa chỉ showroom: 97 Võ Văn Tần, Phường 6, Quận 3, Thành phố Hồ Chí Minh</P>
+               </div>
+
+            </div>
+            <div style="background-color: rgb(233, 233, 229);margin: 0;">
+                <hr style="margin: 0;">
+                <h1 style="font-size: 1vw;">Copyright © 2018 DangVyKhoi.COM</h1>
+                <hr>
+                <hr>
+                <i id="showNews" class="fas fa-newspaper"></i>
+            </div>
+
+       
+
+        </footer>
+
+
+        <!-- cac nut mang xa hoi -->
+        <ul class="social">
+            <li><a href="#!"><img src="pictures/icon/gg.png" /> </a></li>
+            <li><a href="#!"><img src="pictures/icon/icontt.png" /> </a> </li>
+            <li><a href="#!"> <img src="pictures/icon/zalo.png" /> </a></li>
+            <li><a href="#!"><img src="pictures/icon/iconfb.png" /></a></li>
+        </ul>
+<!-- 
+        gototop -->
+        <div class="goToTop">
+           <a href="#"><i style="color: rgb(255, 192, 20);" class="fas fa-arrow-alt-circle-up"></i></a> 
+        </div>
+
+
+        <!-- phan hien thi thong tin san pham -->
+        <div id="contentInforItem">
+            <i id="close" class="fas fa-times-circle"></i>
+        <div>
+            <img id="showImg" src="pictures/items/cay1/xuongrongbattiendo.jpg">
+        </div>
+        <h1>Cây ớt chúa hề</h1>
+        <span>Một số hình ảnh khác của sản phẩm</span>
+            <ul class="changeImg">
+                <li><img src="pictures/items/cay1/sp1/cay1.jpg"/> </li>
+                <li><img src="pictures/items/cay1/xuongrongthachtrutien.jpg"/> </li>
+                <li><img src="pictures/items/cay1/xuongrongbongvang.jpg"/> </li>
+                <li><img src="pictures/items/cay1/xuongrongbonggon.jpg"/> </li>
+            </ul>
+        </div>
+
+        <!-- phan hien thi gio hang -->
+        <div id="basket">
+            
+            <i id="close2" class="fas fa-times-circle"></i>
+             <h1 id="headBag"><i class="fas fa-shopping-bag"> Giỏ hàng</i></h1>
+            <ul id="bags">
+            
+
+            </ul>
+            <a href="#!"  id="thanhToan" onclick="tinhTien()"> Thanh toán</a>
+
+        </div>
+        <div class="pay" >
+            <h2 style="text-align: center;">Thanh Toán Hóa Đơn</h2>
+            <h2 id="sumMoney">Tổng tiền : <span id="tien"></span></h2>
+            <h2>Nhập tài khoãn</h2>
+            <input type="text" placeholder="Tài khoãn"/>
+            <input type="password" placeholder="Mật khẫu" />
+            <h2>Nhập số điện thoại</h2>
+            <input style="width: 100%;" type="text" placeholder="Số điện thoại"/>
+            <h2>Nhập địa chỉ</h2>
+            <textarea style="width: 100%;" placeholder="Địa chỉ"></textarea>
+            <h2>Lưu ý : Thanh toán khi nhận hàng</h2>
+            <input id="okePay" onclick="okePill()" type="button" value="Gửi"/>
+            
+            <i id="close3" class="fas fa-times-circle"></i>
+        </div>
+
+
+        <!-- Phan hien thi danh sach tim kiem san pham -->
+        <div id="resutlSearch">
+            <p>aaaaaa</p>
+        </div>
+
+
+      
+        
+        <script src="../Js/smallActive.js"></script>
+        <script src="../Js/basket.js"></script>
+    </body>
+</html>
