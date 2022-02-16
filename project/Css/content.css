@@ -29,7 +29,7 @@
     align-items: center; */
     
 }
-#product1{
+.product1{
     background-color: rgb(242, 250, 241);
     padding: 10px;
 
@@ -67,7 +67,7 @@
 .nameItem{
     width: 60%;
     font-size: 1vw;
-    background-color: red;
+ 
     padding: 5px;
 }
 .part2{

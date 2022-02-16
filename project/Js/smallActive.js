@@ -173,19 +173,30 @@ $(document).ready(function(){
 
    $("#resutlSearch").slideDown(1000)
 
-        document.getElementById("resutlSearch").innerHTML = "<i id='closeResutlSearch' class='fas fa-trash'></i> <h1 id='listSearch'><i class='fas fa-list'></i> Danh sach san pham tim kiem</h1>"
-      //  alert("heheheh")
+    //   //  alert("heheheh")
 
 
         var va  = $("#search").val()
-     //  alert(va)
+    //  //  alert(va)
         
 
-        var b =   $(`div.item h1:contains(${va})`).parent().parent()
-        console.log(b)
-      $("#resutlSearch").append(b)
+         b =   $(`div.item h1:contains(${va})`).parent().parent()
+        console.log(typeof b)
+       
+       
+       
+        
+        var tmp = ""
+        for(var i = 0 ; i< b.length ;i++){
+        document.getElementById("resutlSearch").innerHTML = `<i id='closeResutlSearch' class='fas fa-trash'></i> <div class="item">${b[i].innerHTML}</div> `
+           tmp = tmp +  document.getElementById("resutlSearch").innerHTML
 
-      /*
+          //  $("#resutlSearch").append(b)
+          console.log(tmp)
+          document.getElementById("resutlSearch").innerHTML = tmp
+        }
+        
+
       //jsCrip
     //  var tmp =   document.querySelectorAll(".item")
     //  console.log(tmp)
@@ -194,7 +205,7 @@ $(document).ready(function(){
     //  {
     //      var c = tmp[i].querySelector(".nameItem")
     //      c = c.innerText
-    //   //   console.log(c)
+    //     console.log(c)
 
     //        if(c.indexOf(va) > 0){
 
@@ -204,13 +215,15 @@ $(document).ready(function(){
     //        }
       
     //  }
-       */
+       
     })
 
   $("#resutlSearch").on("click","i#closeResutlSearch",function(){
    
    $("#resutlSearch").slideUp(1000)
-
+   document.getElementById("resutlSearch").innerHTML = ""
+    
+   
   
   })
  
